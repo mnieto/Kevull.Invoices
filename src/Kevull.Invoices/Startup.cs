@@ -14,6 +14,8 @@ namespace Kevull.Invoices
 {
     public class Startup
     {
+
+        private bool seedData = false;
         public Startup(IHostingEnvironment env)
         {
             // Set up configuration sources.
@@ -24,6 +26,7 @@ namespace Kevull.Invoices
             {
                 // This will push telemetry data through Application Insights pipeline faster, allowing you to view results immediately.
                 builder.AddApplicationInsightsSettings(developerMode: true);
+                seedData = true;
             }
 
             builder.AddEnvironmentVariables();
@@ -38,7 +41,7 @@ namespace Kevull.Invoices
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
             //services.AddTransient<CustomersService>();
-            services.AddInovicesBusinessServices();
+            services.AddInovicesBusinessServices(seedData);
             services.AddMvc();
         }
 

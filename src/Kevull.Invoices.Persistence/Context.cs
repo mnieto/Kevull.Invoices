@@ -12,7 +12,7 @@ namespace Kevull.Invoices.Persistence {
     public class Context : DbContext {
         public DbSet<Customer> Customers { get; set; }
 
-        //public Context(DbContextOptions options): base(options) {
+        //public Context(DbContextOptions options) : base(options) {
         //    Database.EnsureCreated();
         //}
 
