@@ -40,7 +40,8 @@ namespace Kevull.Invoices
         {
             // Add framework services.
             services.AddApplicationInsightsTelemetry(Configuration);
-            //services.AddTransient<CustomersService>();
+
+            services.AddInstance(typeof(IConfigurationRoot), Configuration);
             services.AddInovicesBusinessServices(seedData);
             services.AddMvc();
         }
