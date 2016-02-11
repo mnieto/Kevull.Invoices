@@ -9,9 +9,9 @@ using Microsoft.Data.Entity;
 namespace Kevull.Invoices.Services {
     // This project can output the Class library as a NuGet Package.
     // To enable this option, right-click on the project and select the Properties menu item. In the Build tab select "Produce outputs on build".
-    public class CustomersService {
+    public class CustomersService : ICustomersService {
 
-        public Context Context { get; set; }
+        private Context Context { get; set; }
         public CustomersService(Context context) {
             Context = context;
         }

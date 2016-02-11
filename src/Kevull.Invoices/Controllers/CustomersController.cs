@@ -15,8 +15,8 @@ namespace Kevull.Invoices.Controllers {
     public class CustomersController : Controller {
         //[FromServices]
         //public CustomersService CustomersService { get; set; }
-        private CustomersService CustomersService { get; set; }
-        public CustomersController(CustomersService customersService) {
+        private ICustomersService CustomersService { get; set; }
+        public CustomersController(ICustomersService customersService) {
             CustomersService = customersService;
         }
 
