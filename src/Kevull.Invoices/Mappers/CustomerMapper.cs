@@ -29,12 +29,12 @@ namespace Kevull.Invoices.Mappers {
         public static Customer ToEntity(CustomerModel source) {
             return new Customer {
                 Id = source.Id,
-                Name = source.Name,
-                Street = source.Street,
-                City = source.City,
-                PostalCode = source.PostalCode,
-                Region = source.Region,
-                FiscalIdentifier = source.FiscalIdentifier,
+                Name = source.Name.Trim(),
+                Street = source.Street.Trim(),
+                City = source.City.Trim(),
+                PostalCode = source.PostalCode.Trim(),
+                Region = source.Region.Trim(),
+                FiscalIdentifier = source.FiscalIdentifier.Trim(),
                 SendMailing = source.SendMailing
             };
         }
