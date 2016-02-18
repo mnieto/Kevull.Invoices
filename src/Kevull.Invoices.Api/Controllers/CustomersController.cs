@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Kevull.Invoices.Entities;
-using Kevull.Invoices.Mappers;
-using Kevull.Invoices.Models;
+using Kevull.Invoices.Api.Mappers;
+using Kevull.Invoices.Api.Models;
 using Kevull.Invoices.Services;
 using Microsoft.AspNet.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Kevull.Invoices.Controllers {
+namespace Kevull.Invoices.Api.Controllers {
 
     [Route("api/v1/[controller]")]
     public class CustomersController : Controller {

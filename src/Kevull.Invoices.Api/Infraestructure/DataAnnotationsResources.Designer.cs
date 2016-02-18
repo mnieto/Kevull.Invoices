@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Kevull.Invoices.Infraestructure {
+namespace Kevull.Invoices.Api.Infraestructure {
     using System;
     using System.Reflection;
     

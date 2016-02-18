@@ -10,8 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace Kevull.Invoices
-{
+namespace Kevull.Invoices.Api {
     public class Startup
     {
 

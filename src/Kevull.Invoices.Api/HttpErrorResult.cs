@@ -4,7 +4,7 @@ using Microsoft.AspNet.Http;
 using Microsoft.AspNet.Mvc;
 using Microsoft.AspNet.Mvc.ModelBinding;
 
-namespace Kevull.Invoices {
+namespace Kevull.Invoices.Api {
     public class HttpErrorResult : ObjectResult {
 
         public object Error => Value;

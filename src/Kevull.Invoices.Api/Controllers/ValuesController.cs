@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Mvc;
 
-namespace Kevull.Invoices.Controllers
+namespace Kevull.Invoices.Controllers.Api
 {
     [Route("api/v1/[controller]")]
     public class ValuesController : Controller

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Extensions.Logging;
 
-namespace Kevull.Invoices {
+namespace Kevull.Invoices.Api {
     public class ErrorMessage {
 
         public ErrorMessage(string message, params object[] details) {

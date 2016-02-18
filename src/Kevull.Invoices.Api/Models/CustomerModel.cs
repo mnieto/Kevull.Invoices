@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
-using Kevull.Invoices.Infraestructure;
+using Kevull.Invoices.Api.Infraestructure;
 
-namespace Kevull.Invoices.Models {
+namespace Kevull.Invoices.Api.Models {
     public class CustomerModel {
 
         [Key]

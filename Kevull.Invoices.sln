@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Kevull.Invoices", "src\Kevull.Invoices\Kevull.Invoices.xproj", "{8DF13A09-0083-49FE-BCF9-3B930C4B2359}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Kevull.Invoices.Api", "src\Kevull.Invoices.Api\Kevull.Invoices.Api.xproj", "{8DF13A09-0083-49FE-BCF9-3B930C4B2359}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Kevull.Invoices.Entities", "src\Kevull.Invoices.Entities\Kevull.Invoices.Entities.xproj", "{C90E95EB-57A3-479A-83CE-822B86714B32}"
 EndProject

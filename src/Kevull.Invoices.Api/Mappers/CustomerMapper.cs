@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Kevull.Invoices.Entities;
-using Kevull.Invoices.Models;
+using Kevull.Invoices.Api.Models;
 
-namespace Kevull.Invoices.Mappers {
+namespace Kevull.Invoices.Api.Mappers {
     public static class CustomerMapper {
         public static IEnumerable<CustomerModel> ToModel(IEnumerable<Customer> source) {
             foreach (Customer item in source) {

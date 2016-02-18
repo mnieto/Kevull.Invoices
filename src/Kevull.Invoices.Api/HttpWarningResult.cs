@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Http;
 using Microsoft.AspNet.Mvc;
 
-namespace Kevull.Invoices {
+namespace Kevull.Invoices.Api {
     public class HttpWarningResult : ObjectResult {
 
         public ErrorMessage Message => (ErrorMessage)Value;
