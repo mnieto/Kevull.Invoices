@@ -1,6 +1,6 @@
 ﻿import {Component} from 'angular2/core';
 @Component({
     selector: 'invoices-app',
-    template: 'Invoices Application'
+    templateUrl: 'home.html'
 })
 export class AppComponent { }
